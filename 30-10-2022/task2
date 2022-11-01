@@ -1,0 +1,10 @@
+const myconvertor = (value1, value2) => {
+  if (value2 === `f`) {
+    return ((value1 - 32) * 5) / 9;
+  } else {
+    return (value1 * 9) / 5 + 3;
+  }
+};
+
+//F = (°C × 9/5) + 32
+//C = (°F − 32) x 5/9
